@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import axios from "axios";
 import Pixel from '../components/pixel/facebook/pixel-1'
 import Imagem from "@/components/image";
+import Botao from "@/components/botao";
 
 
 export default function Home() {
@@ -120,17 +121,28 @@ export default function Home() {
 
       <div className={styles.secao4} >
         <div>
-          <h1>Lucas Renault</h1>
-          <h2>O REI DO TRÁFEGO</h2>
-          <p>Lucas Renault é gestor de tráfego profissional e empresário, CEO da Agência Rei, onde gerencia mais de 201 clientes. Todos de e-commerce, dos mais diversos segmentos. Somente em 2023 investiu mais de 24 milhões de reais em anúncios online para ecommerce e gerou um faturamento de 181 milhões de reais, vindos exclusivamente desses anúncios. Como educador, Lucas transformou vidas através de seus treinamentos e hoje tem mais de 11.100 alunos gestores de tráfego que formou através do conceito #ROInoTalo, um método único que entrega grande retorno sobre investimento nas campanhas de anúncios online.</p>
+          <div>
+            <h1>Lucas Renault</h1>
+            <h2>O REI DO TRÁFEGO</h2>
+            <p>Lucas Renault é gestor de tráfego profissional e empresário, CEO da Agência Rei, onde gerencia mais de 201 clientes. Todos de e-commerce, dos mais diversos segmentos. Somente em 2023 investiu mais de 24 milhões de reais em anúncios online para ecommerce e gerou um faturamento de 181 milhões de reais, vindos exclusivamente desses anúncios. Como educador, Lucas transformou vidas através de seus treinamentos e hoje tem mais de 11.100 alunos gestores de tráfego que formou através do conceito #ROInoTalo, um método único que entrega grande retorno sobre investimento nas campanhas de anúncios online.</p>
+          </div>
+        </div>
+        <div>
         </div>
       </div>
 
       <div className={styles.secao5} >
         <div>
-          <h1>Lucas Renault</h1>
-          <h2>O REI DO TRÁFEGO</h2>
-          <p>Lucas Renault é gestor de tráfego profissional e empresário, CEO da Agência Rei, onde gerencia mais de 201 clientes. Todos de e-commerce, dos mais diversos segmentos. Somente em 2023 investiu mais de 24 milhões de reais em anúncios online para ecommerce e gerou um faturamento de 181 milhões de reais, vindos exclusivamente desses anúncios. Como educador, Lucas transformou vidas através de seus treinamentos e hoje tem mais de 11.100 alunos gestores de tráfego que formou através do conceito #ROInoTalo, um método único que entrega grande retorno sobre investimento nas campanhas de anúncios online.</p>
+
+          <div>
+            <h1>Uiara Freitas</h1>
+            <h2>UIARA INTIMATES</h2>
+            <p>Criadora da Uiara Intimates e da Versiani Swim, Uiara Freitas é empresária de longa data e responsável por movimentar mais de 7 milhões de reais por ano no mundo do ecommerce de moda. Depois de construir um negócio milionário e de muito sucesso, com coleções exclusivas de grandes celebridades como Luciana Gimenez, ela vai te mostrar o passo a passo para construir uma loja virtual de excelência, ainda que você esteja começando, além de te ajudar a criar processos bem definidos, de alta lucratividade e o melhor, fazer com que seus clientes sejam apaixonados pela sua marca.</p>
+          </div>
+
+        </div>
+        <div>
+          <Botao />
         </div>
       </div>
 
