@@ -7,8 +7,10 @@
     background-position: center;
     display: flex;
     flex-direction: column;
-    height: 80%;
+    height: 100%;
     position: relative;
+    padding-left: 200px;
+    padding-top: 150px;
 }
 
 .container {
@@ -17,9 +19,8 @@
     /* border: #fff solid; */
     display: flex;
     width: 490px;
-    margin-left: 200px;
-    margin-top: 200px;
     gap: 1rem;
+    margin-bottom: 2rem;
 }
 
 .container>img {
@@ -67,7 +68,6 @@
     align-items: center;
     background-color: #131313;
     padding: 3rem 0;
-    /* gap: 3rem; */
 }
 
 .contentForm>h1{

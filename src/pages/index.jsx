@@ -44,11 +44,6 @@ export default function Home() {
             Faturamento</b> para Um Único E-commerce em Apenas 1 Ano.
           </h1>
         </div>
-
-      </div >
-
-      <div className={styles.contentForm}>
-        <div className={styles.circulo}></div>
         <form className={styles.form} >
           <input
             className={styles.nome}
@@ -68,6 +63,11 @@ export default function Home() {
           />
           <input className={styles.button} type="submit" value={'CLIQUE AQUI E RESERVE SUA VAGA'} />
         </form>
+      </div >
+
+      <div className={styles.contentForm}>
+        <div className={styles.circulo}></div>
+
         <h1> O Melhor Método de Anúncios Online para E-commece
         </h1>
         <h3>
