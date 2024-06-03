@@ -441,16 +441,17 @@
 
     .secao4>div>div{
         margin-top: 120%;
+
     }
     
     .secao5>div>div{
         margin-top: 120%;
-        width: 350px;
+        margin-left: 8%;
     }
     .secao4>div>div>p ,.secao5>div>div>p {
         padding-left: 25px;
         border-left: 2px solid #AC8A5B;
-        width: 350px;
+        width: 300px;
         font-size: medium;
         text-align: justify;
         font-weight: 600;
