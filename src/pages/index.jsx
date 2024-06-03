@@ -8,31 +8,40 @@ import Botao from "@/components/botao";
 
 
 export default function Home() {
-  const [nome, setNome] = useState('');
   const [email, setEmail] = useState('');
+  const [contato, seContato] = useState('');
   const router = useRouter()
 
-  // function cadastroMailbiz(e) {
-  //   e.preventDefault();
-  //   const options = {
-  //     method: 'POST',
-  //     url: `https://mbiz.mailclick.me/api.php/Subscriber.Subscribe?APIKey=${process.env.API_KEY}&Command=Subscriber.Subscribe&ResponseFormat=JSON&ListID=13848&EmailAddress=${email}&CustomField1=${nome}&IPAddress=12`
-  //   };
+  function cadastroMailbiz(e) {
+    e.preventDefault();
 
-  //   axios
-  //     .request(options)
-  //     .then(function (response) {
-  //       console.log(response.data);
-  //     })
-  //     .catch(function (error) {
-  //       console.error(error);
-  //     });
-  //   router.push('/obrigado');
-  // }
+    let headersList = {
+      "Accept": "*/*",
+      "User-Agent": "Thunder Client (https://www.thunderclient.com)",
+      "Content-Type": "application/json" 
+     }
+     
+     let bodyContent = JSON.stringify({
+       "email": email,
+       "contato": contato
+     });
+     
+     let reqOptions = {
+       url: "https://hook.us1.make.com/2dy7gf4ds7rb3bp4wses8bquna26lbae",
+       method: "POST",
+       headers: headersList,
+       data: bodyContent,
+     }
+     
+    axios.request(reqOptions);
+
+    console.log(email,contato);
+    // router.push('/obrigado');
+  }
 
   return (
     <>
-      <Pixel name='FACEBOOK_PIXEL_1' />
+      {/* <Pixel name='FACEBOOK_PIXEL_1' /> */}
       <div className={styles.main}>
         <div className={styles.container}>
           <img src="\Ativo-6.svg" alt="" />
@@ -40,13 +49,13 @@ export default function Home() {
             Faturamento</b> para Um Único E-commerce em Apenas 1 Ano.
           </h1>
         </div>
-        <form className={styles.form} >
+        <form className={styles.form} onSubmit={cadastroMailbiz} >
           <input
             className={styles.nome}
             type="text"
             placeholder='Whatsapp com DDD'
-            value={nome}
-            onChange={(e) => setNome(e.target.value)}
+            value={contato}
+            onChange={(e) => seContato(e.target.value)}
           />
           <input
             className={styles.email}
