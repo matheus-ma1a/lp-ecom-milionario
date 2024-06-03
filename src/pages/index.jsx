@@ -58,6 +58,7 @@ export default function Home() {
             onChange={(e) => setEmail(e.target.value)}
           />
           <input className={styles.button} type="submit" value={'CLIQUE AQUI E RESERVE SUA VAGA'} />
+          
           <div>
             <img src='\Camada_1-2 (2).svg' />
             <p>Dia 11/7, Às 20h Ao Vivo</p>
@@ -67,8 +68,6 @@ export default function Home() {
       </div >
 
       <div className={styles.secao2}>
-        <div className={styles.circulo}></div>
-
         <h1> O Melhor Método de Anúncios Online para E-commece
         </h1>
         <h3>

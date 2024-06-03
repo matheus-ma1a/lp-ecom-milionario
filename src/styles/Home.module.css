@@ -8,10 +8,10 @@
     background-position: center;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 100vh;
     position: relative;
     padding-left: 200px;
-    padding-top: 200px;
+    padding-top: 10%;
 }
 
 .container {
@@ -182,13 +182,13 @@
     justify-content: space-between;
 }
 
-.secao5>div:first-of-type{
+.secao5>div:first-of-type {
     margin-top: 10%;
     display: flex;
     justify-content: flex-end;
 }
 
-.secao5>div:nth-of-type(2){
+.secao5>div:nth-of-type(2) {
     display: flex;
     justify-content: center;
     margin-bottom: 3%;
@@ -234,13 +234,13 @@
     justify-content: space-between;
 }
 
-.secao4>div:first-of-type{
+.secao4>div:first-of-type {
     margin-top: 10%;
     display: flex;
     justify-content: flex-start;
 }
 
-.secao4>div:nth-of-type(2){
+.secao4>div:nth-of-type(2) {
     display: flex;
     justify-content: center;
     margin-bottom: 3%;
@@ -277,7 +277,7 @@
 
 
 
-.botao{
+.botao {
     /* background-color: #000; */
     background: rgb(255, 192, 100);
     background: radial-gradient(circle, #ffc064 11%, rgba(180, 119, 30, 1) 93%);
@@ -287,7 +287,7 @@
     font-weight: 600;
 }
 
-.secao6>div{
+.secao6>div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -297,7 +297,7 @@
     gap: 1rem;
 }
 
-.secao6>div>p{
+.secao6>div>p {
     width: 800px;
     text-align: center;
     color: #ffffff54;
@@ -324,7 +324,7 @@
 .button {
     z-index: 1;
     margin-top: 15px;
-    background: rgb(255, 192, 100);
+    background: #ffc064;
     background: radial-gradient(circle, #ffc064 11%, rgba(180, 119, 30, 1) 93%);
     border: none;
     border-radius: 5px;
@@ -341,6 +341,111 @@
 }
 
 
+@media only screen and (max-width: 600px) {
+
+    .main {
+
+        background-image: url('/banner-topo-mobile1-copiar-2.webp');
+        background-position: top;
+        padding: 9% 1rem 0 0;
+        align-items: center; 
+        position: relative;
+    }
+    
+    .container {
+        align-items: center;
+        width: 100%;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        margin-top: 15%;
+    }
+    
+    .container>img{
+        width: 270px;
+        margin: 1rem 0;
+    }
+    
+    .container>h1 {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .form {
+        width: 90%;
+    }
+    
+    .form>div{
+        /* border: #b60000 solid; */
+        background-color: #ffc064;
+        width: 80%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        bottom: -25px;
+        left: 40px;
+    }
+
+    .button {
+
+        margin-top: 0;
+    }
+    
+    .cards {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 3rem;
+        margin-top: 2rem;
+    }
+
+    .secao2>h1 {
+        font-family: "Unna", serif;
+        color: #ffc064;
+        font-weight: 900;
+        width: 100%;
+        text-align: center;
+        font-size: 39px;
+    }
+
+    .secao2>h3 {
+        font-size: 23px;
+        font-weight: 300;
+        padding-top: 50px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .secao4 {
+        background-image: url('/bio-mobile-lucas-5.webp');
+        background-size: cover;
+        background-position: top;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .secao4>div>div>p {
+        padding-left: 25px;
+        border-left: 2px solid #AC8A5B;
+        color: #5a482e;
+        width: 100%;
+        font-size: 24px;
+        text-align: justify;
+        font-weight: 600;
+        font-family: Darker Grotesque;
+    }
+
+    .secao6>div>p {
+        width: 80%;
+        text-align: center;
+        color: #ffffff54;
+    }
+}
 
 @media (max-width: 768px) {}
 
