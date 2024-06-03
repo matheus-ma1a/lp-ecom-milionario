@@ -195,7 +195,7 @@
 
 .secao5>div>div {
     width: 500px;
-    margin-right: 8%;
+
 }
 
 .secao5>div>div>h1 {
@@ -244,7 +244,7 @@
 
 .secao4>div>div {
     width: 500px;
-    margin-left: 8%;
+
 }
 
 .secao4>div>div>h1 {
@@ -332,11 +332,9 @@
     font-weight: 400;
 }
 
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 435px) {
 
     .main {
-
         background-image: url('/banner-topo-mobile1-copiar-2.webp');
         background-position: top;
         padding: 9% 1rem 0 0;
@@ -345,6 +343,7 @@
     }
     
     .container {
+
         align-items: center;
         width: 100%;
         gap: 1rem;
@@ -356,15 +355,19 @@
     .container>img{
         width: 270px;
         margin: 1rem 0;
+
     }
     
     .container>h1 {
         font-size: 1.5rem;
         font-weight: 500;
+
+
     }
 
     .form {
         width: 90%;
+
     }
     
     .form>div{
@@ -446,8 +449,9 @@
     
     .secao5>div>div{
         margin-top: 120%;
-        margin-left: 8%;
+
     }
+
     .secao4>div>div>p ,.secao5>div>div>p {
         padding-left: 25px;
         border-left: 2px solid #AC8A5B;
@@ -469,8 +473,6 @@
         justify-content: space-between;
     }
 
-
-
     .secao6>div>p {
         width: 80%;
         text-align: center;
@@ -480,6 +482,109 @@
     }
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 1024px) {
+
+    .main {
+        background-image: url('/banner-topo-mobile1-copiar-2.webp');
+        background-position: top;
+        padding: 9% 1rem 0 0;
+        align-items: center; 
+        position: relative;
+    }
+
+    .cards {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 3rem;
+        margin-top: 2rem;
+    }
+
+    .secao2>h1 {
+        font-family: "Unna", serif;
+        color: #ffc064;
+        font-weight: 900;
+        width: 100%;
+        text-align: center;
+        font-size: 29px;
+    }
+
+    .secao2>h3 {
+        font-size: 20px;
+        font-weight: 300;
+        padding-top: 50px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .container {
+
+        align-items: center;
+        width: 100%;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        margin-top: 15%;
+    }
+
+    .secao3 {
+        padding: 2rem 1rem ; 
+    }
+    
+    .secao3>h1{
+        text-align: center;
+        padding: 3rem 0;
+        font-weight: 600;
+
+    }
+
+    .secao3>ul>div>li>p{
+        color: #000000;
+        font-size: small;
+        font-weight: bold;
+    }
+
+    .container>img{
+        width: 270px;
+        margin: 1rem 0;
+
+    }
+
+    .container>h1 {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .form {
+        width: 90%;
+    }
+
+    .secao6>div>p {
+        width: 80%;
+        text-align: center;
+        color: #ffffff54;
+        font-size: x-small;
+        margin-bottom: 3rem;
+    }
+
+    .secao4>div>div>p ,.secao5>div>div>p {
+        padding-left: 25px;
+        border-left: 2px solid #AC8A5B;
+        width: 300px;
+        font-size: medium;
+        text-align: justify;
+        font-weight: 600;
+        font-family: Darker Grotesque;
+        
+    }
+    
+    .secao5>div>div, .secao4>div>div{
+        padding-left: 8%;
+    }
+    
+    
+}
 
 @media (max-width: 414px) {}
