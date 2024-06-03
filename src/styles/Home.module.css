@@ -171,7 +171,6 @@
     font-weight: 500;
 }
 
-
 .secao5 {
     background-image: url('/bio-uiara-teste-1-copiar-1.webp');
     background-size: cover;
@@ -221,9 +220,6 @@
     font-family: Darker Grotesque;
 }
 
-
-
-
 .secao4 {
     background-image: url('/bio-lucas.webp');
     background-size: cover;
@@ -272,10 +268,6 @@
     font-weight: 600;
     font-family: Darker Grotesque;
 }
-
-
-
-
 
 .botao {
     /* background-color: #000; */
@@ -408,42 +400,82 @@
         font-weight: 900;
         width: 100%;
         text-align: center;
-        font-size: 39px;
+        font-size: 29px;
     }
 
     .secao2>h3 {
-        font-size: 23px;
+        font-size: 20px;
         font-weight: 300;
         padding-top: 50px;
         text-align: center;
         width: 100%;
     }
 
+    .secao3 {
+        padding: 2rem 1rem ; 
+    }
+    
+    .secao3>h1{
+        text-align: center;
+        padding: 3rem 0;
+        font-weight: 600;
+
+    }
+
+    .secao3>ul>div>li>p{
+        color: #000000;
+        font-size: small;
+        font-weight: bold;
+    }
+
     .secao4 {
+
         background-image: url('/bio-mobile-lucas-5.webp');
         background-size: cover;
         background-position: top;
-        height: 100%;
+        height: 1000px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
 
-    .secao4>div>div>p {
+    .secao4>div>div{
+        margin-top: 120%;
+    }
+    
+    .secao5>div>div{
+        margin-top: 120%;
+        width: 350px;
+    }
+    .secao4>div>div>p ,.secao5>div>div>p {
         padding-left: 25px;
         border-left: 2px solid #AC8A5B;
-        color: #5a482e;
-        width: 100%;
-        font-size: 24px;
+        width: 350px;
+        font-size: medium;
         text-align: justify;
         font-weight: 600;
         font-family: Darker Grotesque;
     }
 
+    .secao5 {
+
+        background-image: url('/bio-mobile-uiara-1.webp');
+        background-size: cover;
+        background-position: top;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+
     .secao6>div>p {
         width: 80%;
         text-align: center;
         color: #ffffff54;
+        font-size: x-small;
+        margin-bottom: 3rem;
     }
 }
 

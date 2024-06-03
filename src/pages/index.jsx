@@ -58,7 +58,7 @@ export default function Home() {
             onChange={(e) => setEmail(e.target.value)}
           />
           <input className={styles.button} type="submit" value={'CLIQUE AQUI E RESERVE SUA VAGA'} />
-          
+
           <div>
             <img src='\Camada_1-2 (2).svg' />
             <p>Dia 11/7, Às 20h Ao Vivo</p>
@@ -102,18 +102,18 @@ export default function Home() {
         <ul>
           <div>
             <p>01</p>
-            <li>Iniciantes no tráfego pago sem tempo a perder e que desejam dar<br></br> os primeiros
-              passos na direção certa no mercado de e-commerce</li>
+            <li><p>Iniciantes no tráfego pago sem tempo a perder e que desejam dar<br></br> os primeiros
+              passos na direção certa no mercado de e-commerce</p></li>
           </div>
           <div>
             <p>02</p>
-            <li>Gestores de tráfego que estão cansados de aplicar métodos comuns<br></br> de tráfego pago
-              pra clientes de e-commerce e não terem resultado.</li>
+            <li><p>Gestores de tráfego que estão cansados de aplicar métodos comuns<br></br> de tráfego pago
+              pra clientes de e-commerce e não terem resultado.</p></li>
           </div>
           <div>
             <p>03</p>
-            <li>Gestores de tráfego experientes, que desejam escalar a sua agência <br></br>de tráfego
-              dominando o nicho mais rentável do mercado digital.</li>
+            <li><p>Gestores de tráfego experientes, que desejam escalar a sua agência <br></br>de tráfego
+              dominando o nicho mais rentável do mercado digital.</p></li>
           </div>
         </ul>
       </div>
