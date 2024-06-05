@@ -36,12 +36,12 @@ export default function Home() {
     axios.request(reqOptions);
 
     console.log(email,contato);
-    // router.push('/obrigado');
+    router.push('/obrigado');
   }
 
   return (
     <>
-      {/* <Pixel name='FACEBOOK_PIXEL_1' /> */}
+      <Pixel name='FACEBOOK_PIXEL_1' />
       <div className={styles.main}>
         <div className={styles.container}>
           <img src="\Ativo-6.svg" alt="" />

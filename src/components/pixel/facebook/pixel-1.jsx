@@ -11,10 +11,10 @@ export default () =>
       t.src=v;s=b.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t,s)}(window, document,'script',
       'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '1442714005903162');
+      fbq('init', '1376412582902165');
       fbq('track', 'PageView');` }}
     />
     <noscript dangerouslySetInnerHTML={{ __html: `<img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=1442714005903162&ev=PageView&noscript=1" />` }}
+      src="https://www.facebook.com/tr?id=1376412582902165&ev=PageView&noscript=1" />` }}
     />
   </React.Fragment>

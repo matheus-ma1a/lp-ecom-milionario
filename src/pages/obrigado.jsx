@@ -1,6 +1,7 @@
-import styles from "../styles/Home.module.css";
+import styles from "../styles/obrigado.module.css";
 import Pixel from '../components/pixel/facebook/pixel-1'
 import { useEffect } from "react";
+import ProgressBar from "@/components/pixel/facebook/progresbar";
 
 
 
@@ -13,22 +14,52 @@ export default function Home() {
     return (
         <>
             <Pixel name='FACEBOOK_PIXEL_1' />
-            <div className={styles.main}>
+            <div className={styles.mainObrigado}>
 
                 <div className={styles.wapper}>
 
-                    <div className={styles.container}>
-                        <h1>INVERNO 24’</h1>
-                        <p>PARTE II</p>
-                        <div className={styles.obg}>
-                            <p>OBRIGADA POR SE INSCREVER!</p>
+                    <div className={styles.headline}>
+                        <h1>Falta pouco pra você descobrir...</h1>
+                        <h2>...os segredos do e-commerce milionário</h2>
+                        <ProgressBar percentage={85} />
+
+                    </div>
+
+                    <div className={styles.listContent}>
+                        <div>
                             <p>
-                                Clique para fazer parte da nossa comunidade no whatsapp
-                                e fique por dentro de todas as novidades.
+                                01
+                            </p>
+                        </div>
+                        <div>
+                            <h3>Entre no Grupo de WhatsApp</h3>
+                            <p>
+                                Para finalizar sua inscrição, clique no botão abaixo e entre para o grupo do WhatsApp, somente lá você terá acesso a informações privilegiadas.
                             </p>
                         </div>
                     </div>
-                    <a className={styles.buttonObg} href="https://devzapp.com.br/api-engennier/campanha/api/redirect/66293b4e230a9c00011b2fd2">FAÇA PARTE</a>
+                    <div className={styles.listContent}>
+                        <div>
+                            <p>
+                                02
+                            </p>
+                        </div>
+                        <div>
+                            <h3>Confirme seu e-mail</h3>
+                            <p>
+                                Acesse a sua caixa de e-mail, procure a mensagem que eu te enviei e clique no link para confirmar a sua inscrição. Você receberá um presente logo após a confirmação.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className={styles.butaoWapp}>
+                        <img width={15} src="/Vector.png" alt="" />
+                        <a className={styles.buttonObg} href="https://devzapp.com.br/api-engennier/campanha/api/redirect/63c086109243310001e35796">ENTRAR NO GRUPO FECHADO DE WHATSAPP</a>
+                    </div>
+
+                    <div className={styles.footer}>
+                        <img width={270} src="/Ativo-6.svg" alt="" />
+                    </div>
                 </div>
             </div>
         </>

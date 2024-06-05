@@ -1,0 +1,21 @@
+.progressBarContainer {
+    width: 80%;
+    background-color: #FFFFFF42;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.progressBarFill {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+    background-color: #AC8A5B;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 8px 0 0 8px;
+    padding-right: 10px;
+}

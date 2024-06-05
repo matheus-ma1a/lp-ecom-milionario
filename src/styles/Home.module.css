@@ -332,6 +332,7 @@
     font-weight: 400;
 }
 
+
 @media only screen and (max-width: 435px) {
 
     .main {
@@ -586,5 +587,3 @@
     
     
 }
-
-@media (max-width: 414px) {}
